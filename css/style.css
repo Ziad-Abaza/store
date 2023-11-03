@@ -1,0 +1,106 @@
+:root {
+    /* تعريف الألوان */
+    --primary-color: #ff3366 !important;
+    --secondary-color: #ffffff !important;
+    --text-color: #333 !important;
+    --accent-color: #ff6600 !important;
+    --background-color-1: #375730 !important;
+    --background-color-2: #4CAF50 !important;
+    --background-color-3: #737378 !important;
+    --background-color-4: #0011ff !important;
+
+    /* تعريف أنواع الخطوط */
+    --font-family-main: "Montserrat", Arial, sans-serif !important;
+    --font-family-heading: "Oswald", sans-serif !important;
+
+    /* تعريف الحواف */
+    --border-style-1: solid 2px #ff6600 !important;
+    --border-style-2: solid 4px #222 !important;
+    --border-style-3: solid 2px #00c3ff !important;
+    --border-style-4: solid 2px #4CAF50 !important;
+    --border-style-5: solid 2px #7342b8 !important;
+    --border-style-6: solid 4px #375730 !important;
+
+    /* تعريف مدة الانتقال */
+    --transition-duration-short: 0.3s !important;
+    --transition-duration-medium: 0.8s !important;
+    --transition-duration-long: 1s !important;
+
+    /* تعريف أحجام الخطوط */
+    --font-size-h1: 28px !important;
+    --font-size-h2: 24px !important;
+    --font-size-paragraph: 20px !important;
+    --font-size-regular: 18px !important;
+    --font-size-small: 16px !important;
+    --font-size-tiny: 14px !important;
+    --font-size-very-tiny: 12px !important;
+
+    /* تعريف ألوان الخلفيات */
+    --background-color-white: #f8f8f8 !important;
+    --background-color-black: #333333 !important;
+    --background-color-sub: #747d897d !important;
+    --background-color-custom-1: #4CAF50 !important;
+    --background-color-custom-2: #49d2d7c1 !important;
+    --background-color-custom-3: #375730 !important;
+    --background-color-custom-4: #d2e810 !important;
+    --background-color-custom-5: #a8b178 !important;
+    --background-color-custom-6: #bac293 !important;
+
+    /* تعريف ظلال المربعات */
+    --box-shadow-1: 0 4px 8px #7342b8 !important;
+    --box-shadow-2: 2px 2px 12px #183443 !important;
+    --box-shadow-sub:  #747373 !important;
+    --box-shadow-dark:  #505151 !important;
+    --box-shadow-white:  #efecf2 !important;
+}
+
+a{
+    text-decoration-line: none !important;
+    transition: 0.3s !important;
+}
+
+/* ////////////////////     loader      //////////////////// */
+
+/* ////////////////////     swiper      //////////////////// */
+
+
+
+/* ////////////////////     product viewer      //////////////////// */
+
+/* تنسيق العارض لعرض المنتجات */
+.product-viewer.scroll {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+/* تنسيق بطاقة المنتج */
+#card {
+    min-width: 240px;
+    max-width: 240px;
+    word-wrap: break-word;
+    min-height: 320px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, var(--background-color-sub), var(--background-color-white));
+    box-shadow: 2px 2px 12px var(--box-shadow-sub), -2px -2px 12px var(--box-shadow-white);
+}
+
+/* تنسيق صورة المنتج */
+.image-product {
+    height: 60%;
+}
+
+/* تنسيق الصورة نفسها */
+.image-product img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* تنسيق معلومات المنتج بما في ذلك الخصم */
+.info-product .discount {
+    text-decoration: line-through;
+}
